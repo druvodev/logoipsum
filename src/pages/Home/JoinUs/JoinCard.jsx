@@ -4,7 +4,7 @@ const JoinCard = ({ info }) => {
   // split card number in two parts
   const [numberPart, indicatorPart] = cardNumber.split(/(?<=^\d)(?=\D)/);
   return (
-    <div className="p-8 rounded-3xl bg-white shadow-[2px_4px_15px_0px_rgba(133,_133,_167,_0.25)] relative">
+    <div className="p-8 rounded-3xl bg-white shadow-custom relative">
       <div className="h-full overflow-hidden rounded-xl">
         <h4 className="text-xl font-bold text-center">{title}</h4>
         <p className="text-base mt-1 text-center">{description}</p>

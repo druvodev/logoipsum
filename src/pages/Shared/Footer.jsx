@@ -6,7 +6,7 @@ import whatsapp from "../../assets/icon/whatsapp.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="px-primary pt-8 pb-11  bg-gradient-to-r from-blue-600 to-[#7000d3] text-white font-openSans">
+      <div className="px-primary pt-8 pb-11 bg-gradient-to-r from-[#2f4fcf] via-[#2f4fcf] to-[#6227d1] text-white font-openSans">
         <div className="grid gap-16 grid-cols-7 mb-8 ">
           <div className="col-span-2">
             <img src={logo} alt="Logo Ipsum" />

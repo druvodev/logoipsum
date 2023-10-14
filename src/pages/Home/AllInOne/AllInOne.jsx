@@ -6,7 +6,7 @@ import hatIcon from "../../../assets/icon/hat.svg";
 
 export const AllInOne = () => {
   return (
-    <section className="grid grid-cols-2 gap-5 sm:gap-12 mt-28 px-primary">
+    <section className="grid grid-cols-2 gap-5 sm:gap-12 mt-28 p-primary">
       <div>
         <h2 className="text-header">
           <span className="bg-gradient-to-r from-blue-600 via-purple-700 to-[#9400D3] bg-clip-text text-transparent">

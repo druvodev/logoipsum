@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Poppins:wght@400;700&family=Source+Code+Pro:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Source+Code+Pro:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Source+Code+Pro:wght@500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(91deg, #0076ce 26.63%, #9400d3 65.81%);
+    background-clip: text;
+    color: transparent;
+  }
+  .heroBg {
+    background: linear-gradient(
+      75deg,
+      #feddee 0%,
+      #fcf6fc 31.77%,
+      #c5eaed 64.58%,
+      #fdddfe 100%
+    );
+    /* filter: blur(250px); */
+  }
+}

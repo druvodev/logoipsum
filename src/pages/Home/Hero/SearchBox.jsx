@@ -1,8 +1,11 @@
 import { useState } from "react";
 import star from "../../../assets/icon/star-fill.svg";
+import { useNavigate } from "react-router-dom";
 const SearchBox = () => {
   const [isModal, setIsModal] = useState(false);
   const [partners, setPartners] = useState([]);
+
+  const navigate = useNavigate();
   console.log(partners);
 
   // handel specific partner searching methods
@@ -24,6 +27,12 @@ const SearchBox = () => {
     } else {
       setPartners([]);
     }
+  };
+
+  // handel selected partner
+  const selectedPartner = (id) => {
+    setIsModal(false);
+    navigate(`/partner/${id}`);
   };
 
   return (
@@ -51,17 +60,17 @@ const SearchBox = () => {
               <div
                 key={item?.id}
                 onClick={() => {
-                  setIsModal(false);
+                  selectedPartner(item?.id);
                 }}
                 className="flex items-center justify-between gap-1 px-4 py-1 border-b hover:bg-slate-100 cursor-pointer"
               >
                 <div>
                   <h5 className="text-xl font-semibold">{item?.name}</h5>
-                  <p className="font-semibold text-gray-500">
+                  <p className="font-semibold text-gray-700">
                     {item?.taskComplexity}
                   </p>
                 </div>
-                <div className="flex items-center gap-1 mt-4">
+                <div className="flex items-center gap-1">
                   <img src={star} alt="Star icon" className="w-5 h-6" />{" "}
                   <p className="text-lg">
                     <span className="font-bold text-primary">

@@ -1,0 +1,22 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-park-twotone:degree-hat" clip-path="url(#clip0_36_1795)">
+<g id="Mask group">
+<mask id="mask0_36_1795" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-2" y="12" width="66" height="47">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M-0.355469 25.6L31.1775 13L62.7105 25.6L31.1775 38.2L-0.355469 25.6Z" fill="#555555" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+<path id="Vector_2" d="M62.7086 25.765V39.5995M13.9766 32.2375V50.9005C13.9766 50.9005 21.1916 58 31.1756 58C41.1611 58 48.3761 50.9005 48.3761 50.9005V32.2375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_36_1795)">
+<path id="Vector_3" d="M-3.35742 -0.5H68.6426V71.5H-3.35742V-0.5Z" fill="#0076CE"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_36_1795">
+<rect width="65" height="65" fill="white"/>
+</clipPath>
+</defs>
+</svg>

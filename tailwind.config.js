@@ -23,6 +23,9 @@ export default {
           },
         ],
       },
+      backgroundImage: {
+        "card-gradient": "linear-gradient(96deg, #0076ce 0%, #9400d3 100%)",
+      },
     },
   },
   plugins: [],

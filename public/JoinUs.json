@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Commencement of business",
+    "description": "Invested shareholders must confirm payment and office address",
+    "dueDateValue": "Within 180 days",
+    "penaltyFees": ["₹50,000 for the company", "₹1,000 /day for directors"],
+    "cardNumber": "1st"
+  },
+  {
+    "title": "Auditor Appointment",
+    "description": "Company informs new auditor and submits ADT.1 form to ROC.",
+    "dueDateValue": "Within 30 days",
+    "penaltyFees": ["₹300 per month."],
+    "cardNumber": "2st"
+  },
+  {
+    "title": "DIN eKYC",
+    "description": "Directors share personal information for identification & verification ",
+    "dueDateValue": "Every Year",
+    "penaltyFees": ["₹5000 one time."],
+    "cardNumber": "3rd"
+  },
+  {
+    "title": "DPT-3",
+    "description": "Companies report money taken from people to ROC; auditors confirm details.",
+    "dueDateValue": "Within 30 days",
+    "penaltyFees": ["₹3000 per month."],
+    "cardNumber": "4th"
+  },
+  {
+    "title": "MCA Form AOC-4",
+    "description": "It's like an official report card for a company's documents",
+    "dueDateValue": "On or Before 30th November ",
+    "penaltyFees": ["₹200 per day (No upper limit)*"],
+    "cardNumber": "5th"
+  },
+  {
+    "title": "MCA Form MGT-7",
+    "description": "Companies must annually report activities and finances to the registrar.",
+    "dueDateValue": "On or Before 31st December",
+    "penaltyFees": ["₹200 per day (No upper limit)*"],
+    "cardNumber": "6th"
+  }
+]

@@ -27,7 +27,7 @@ const PartnerDetails = () => {
           <LeftSide partnerInfo={partnerInfo} />
           <RightSide partnerInfo={partnerInfo} />
         </div>
-        <Recommended />
+        <Recommended existingId={partnerInfo.id} />
       </section>
     )
   );

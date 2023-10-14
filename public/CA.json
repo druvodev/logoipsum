@@ -25,7 +25,7 @@
   {
     "id": 2,
     "name": "Lucy Brown",
-    "image": "https://images.unsplash.com/photo-1556746818-17b142980bb2?fit=crop&w=800&q=80",
+    "image": "https://img.freepik.com/free-photo/businessman-leader-modern-office-with-businesspeople-working_1139-961.jpg?size=626&ext=jpg&ga=GA1.2.1622002428.1673353255&semt=ais",
     "intro": "Dedicated accountant with expertise in taxation and corporate finance.",
     "rating": 4.5,
     "reviewCount": 75,
@@ -78,7 +78,7 @@
   {
     "id": 4,
     "name": "Anita Patel",
-    "image": "https://images.unsplash.com/photo-1563990112129-a9a72c04f5d7?fit=crop&w=800&q=80",
+    "image": "https://img.freepik.com/free-photo/businesswoman-leader-modern-office-with-businesspeople-workin_1139-954.jpg?size=626&ext=jpg&ga=GA1.2.1622002428.1673353255&semt=sph",
     "intro": "Passionate about helping startups navigate the complexities of financial compliance.",
     "rating": 4.9,
     "reviewCount": 95,
@@ -151,7 +151,7 @@
   {
     "id": 7,
     "name": "William O'Connell",
-    "image": "https://images.unsplash.com/photo-1542751371-6533d14d705f?fit=crop&w=800&q=80",
+    "image": "https://img.freepik.com/free-photo/asian-businesswoman-showing-tablet-her-manager-during-meeting-office_74952-2812.jpg?size=626&ext=jpg&ga=GA1.2.1622002428.1673353255&semt=sph",
     "intro": "Master of tax strategy and international finance regulations.",
     "rating": 4.6,
     "reviewCount": 78,

@@ -6,11 +6,11 @@ import whatsapp from "../../assets/icon/whatsapp.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="px-primary pt-8 pb-11 bg-gradient-to-r from-[#2f4fcf] via-[#2f4fcf] to-[#6227d1] text-white font-openSans">
-        <div className="grid gap-16 grid-cols-7 mb-8 ">
+      <div className="px-5 sm:px-5 sm:px-12 xl:px-primary pt-8 pb-7 sm:pb-11 bg-gradient-to-r from-[#2f4fcf] via-[#2f4fcf] to-[#6227d1] text-white font-openSans">
+        <div className="grid gap-8 sm:gap-16 sm:grid-cols-7 mb-8 ">
           <div className="col-span-2">
             <img src={logo} alt="Logo Ipsum" />
-            <p className="text-sm mt-4">
+            <p className="text-sm sm:mt-4">
               India&apos;s first platform dedicated to simplifying partner
               search
             </p>
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="flex justify-between mt-8">
+        <div className="flex flex-col sm:flex-row justify-between gap-2 mt-5 sm:mt-8">
           <p className="text-sm">
             Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071,
             Maharashtra
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="px-primary bg-black text-xs text-white py-5 text-center">
+      <div className="px-5 sm:px-5 sm:px-12 xl:px-primary bg-black text-xs text-white py-5 text-center">
         <p>
           Registered trademark of India Private Limited © 2023 loerumipsum Inc.
           All Rights Reserved

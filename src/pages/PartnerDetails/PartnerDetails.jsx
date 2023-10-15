@@ -22,8 +22,8 @@ const PartnerDetails = () => {
 
   return (
     partnerInfo && (
-      <section className="px-primary mt-24">
-        <div className="flex gap-8">
+      <section className="px-5 sm:px-12 xl:px-primary mt-10 xl:mt-24">
+        <div className="flex flex-col xl:flex-row gap-8">
           <LeftSide partnerInfo={partnerInfo} />
           <RightSide partnerInfo={partnerInfo} />
         </div>

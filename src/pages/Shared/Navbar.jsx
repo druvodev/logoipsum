@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="absolute sm:hidden left-2 top-1" onClick={isMenu}>
+      <div className="absolute sm:hidden left-2 top-1 z-50" onClick={isMenu}>
         {isMenuOpen ? (
           <AiOutlineClose className="h-10 w-10" />
         ) : (
@@ -20,8 +20,10 @@ const Navbar = () => {
         )}
       </div>
       <nav
-        className={`flex flex-col sm:flex-row  justify-between items-center gap-3 py-3 px-5 sm:px-primary absolute sm:sticky sm:top-0 sm:rounded-none sm:h-[85px] z-50 ${
-          isMenuOpen ? "top-10 rounded-md duration-500" : "-top-60"
+        className={`${
+          isMenuOpen && "bg-white"
+        } flex flex-col sm:flex-row justify-between items-center gap-3 py-3 px-5 sm:px-12 xl:px-primary absolute sm:sticky sm:top-0 sm:rounded-none z-50 ${
+          isMenuOpen ? "top-10 rounded-md duration-500" : "-top-64"
         }`}
       >
         <div className="flex items-center gap-8 font-poppins">

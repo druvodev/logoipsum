@@ -27,9 +27,9 @@ const Recommended = ({ existingId }) => {
 
   return (
     randomPartners && (
-      <div className="my-32">
+      <div className="my-16 xl:my-32">
         <h3 className="text-4xl font-bold mb-8">Recommended for you</h3>
-        <div className="grid gap-8 grid-cols-3">
+        <div className="grid gap-3 sm:gap-8 sm:grid-cols-2 xl:grid-cols-3">
           {randomPartners?.map((item) => (
             <RecommendedCard key={item.id} partnerInfo={item} />
           ))}

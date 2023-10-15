@@ -4,11 +4,11 @@ import JoinUs from "../JoinUs/JoinUs";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <JoinUs />
       <AllInOne />
-    </div>
+    </>
   );
 };
 

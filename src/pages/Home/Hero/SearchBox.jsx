@@ -37,16 +37,16 @@ const SearchBox = () => {
 
   return (
     <div className="relative">
-      <div className="w-full flex mt-14 font-inter">
+      <div className="w-full flex mt-6 sm:mt-14 font-inter">
         <input
           type="text"
           placeholder="Search by name"
-          className="w-full py-4 px-4 rounded-l-lg font-bold text-[#AEB0B4] focus:text-primary/60 outline-primary/50"
+          className="w-full py-3 sm:py-4 px-3 sm:px-4 rounded-l-lg font-bold text-[#AEB0B4] focus:text-primary/60 outline-primary/50 border-2 border-r-0 sm:border-0 border-sky-200"
           onChange={handleInputSearch}
         />
         <input
           type="button"
-          className="py-4 px-12 bg-primary hover:bg-sky-600 active:bg-sky-700 font-semibold rounded-r-lg text-white cursor-pointer"
+          className="py-3 sm:py-4 px-3 sm:px-12 bg-primary hover:bg-sky-600 active:bg-sky-700 font-semibold rounded-r-lg text-white cursor-pointer"
           value="Search"
         />
       </div>
@@ -64,15 +64,17 @@ const SearchBox = () => {
                 }}
                 className="flex items-center justify-between gap-1 px-4 py-1 border-b hover:bg-slate-100 cursor-pointer"
               >
-                <div>
-                  <h5 className="text-xl font-semibold">{item?.name}</h5>
-                  <p className="font-semibold text-gray-700">
-                    {item?.taskComplexity}
-                  </p>
+                <div className="sm:text-xl font-semibold">
+                  <h5>{item?.name}</h5>
+                  <p className="text-gray-700">{item?.taskComplexity}</p>
                 </div>
                 <div className="flex items-center gap-1">
-                  <img src={star} alt="Star icon" className="w-5 h-6" />{" "}
-                  <p className="text-lg">
+                  <img
+                    src={star}
+                    alt="Star icon"
+                    className="w-4 sm:w-5 h-4 sm:h-6"
+                  />{" "}
+                  <p className="sm:text-lg">
                     <span className="font-bold text-primary">
                       {item?.rating}
                     </span>{" "}

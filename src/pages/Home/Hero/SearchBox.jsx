@@ -66,7 +66,9 @@ const SearchBox = () => {
               >
                 <div className="sm:text-xl font-semibold">
                   <h5>{item?.name}</h5>
-                  <p className="text-gray-700">{item?.taskComplexity}</p>
+                  <p className="text-gray-700 sm:text-base">
+                    {item?.taskComplexity}
+                  </p>
                 </div>
                 <div className="flex items-center gap-1">
                   <img
